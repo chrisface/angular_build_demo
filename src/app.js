@@ -1,4 +1,4 @@
-angular.module('app', ['ui.router']);
+angular.module('app', ['templates', 'ui.router']);
 
 angular.module('app').controller('MainCtrl', function(){
   this.message = "Hello World";
